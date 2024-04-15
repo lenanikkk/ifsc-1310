@@ -23,8 +23,8 @@ img{
 
 .img-right{
   position:absolute;
-  top:30px;
-  right:30px;
+  top:20px;
+  right:25px;
     width: 220px;
   }
 
@@ -44,6 +44,8 @@ img{
 
 
 
+
+
 body{
     background-color: #000000;
     font-family: "Montserrat", sans-serif;
@@ -54,12 +56,14 @@ body{
     
     header.primary {
     background-image: url("../img/drag.png");
-   /* background-image: url("../img/dragon-in-space.jpg");*/
+    background-size:cover;
     color:#ffffff;
     padding: 100px;  
-    text-align:center; 
+    text-align:left; 
     }
 
+  
+  
     
     header.primary h1 {
       font-size: 5rem;
@@ -77,18 +81,18 @@ body{
       font-size: 1rem;
       font-family: "Montserrat", sans-serif;
       font-weight: 400; 
+      padding-bottom: 5rem;
     }
     
     header.primary nav{
-      max-width:900px;
-      margin: 20px auto;
+      max-width: 900px;
+      margin: 40px auto;
     }
     
     header.primary ul {
-      padding:10px 0;
       display:flex;
       flex-direction: row;
-      justify-content:space-around;
+      justify-content:space-evenly ;
     }
     
     header.primary ul li{
@@ -103,7 +107,7 @@ body{
     }
     
     header.primary nav a:hover{
-      color:#adadad;
+      color:#969696;
     }
     
     #content{
