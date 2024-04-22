@@ -83,6 +83,21 @@ nav a:hover {
   }
 
 
+h2{
+  font-weight:bold;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1.5px 1.5px #0C2F33;
+  padding-top: 10px;
+  font-size:1.5rem;
+}
+
+p{    
+  color: #fff;
+  text-shadow: 1.5px 1.5px #0C2F33;
+  padding-top: 10px;
+  font-size:1.2rem;
+}
 
 
 @media screen and (max-width: 600px) {
